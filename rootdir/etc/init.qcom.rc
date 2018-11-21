@@ -8,11 +8,7 @@ on init
     mount none /system/lib/hw/power.qcom.so /vendor/lib/hw/power.qcom.so bind
     mount none /system/lib/soundfx/libvolumelistener.so /vendor/lib/soundfx/libvolumelistener.so bind
     mount none /system/lib/modules/wlan.ko /vendor/lib/modules/qca_cld3_wlan.ko bind
-	write /sys/class/leds/vibrator/vmax_override 0
-    write /sys/class/leds/vibrator/vmax_mv 2552
-	write /sys/class/leds/vibrator/vmax_call 3596
-	write /sys/class/leds/vibrator/vmax_strong 3596
-    write /sys/class/leds/vibrator/vmax_mv_user 500
+    write /sys/class/leds/vibrator/vmax_mv 2297
 
 on boot
     chown system system /proc/touchpanel/wake_gesture
