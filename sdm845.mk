@@ -14,7 +14,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/polaris/device-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosip
+    $(LOCAL_PATH)/overlay-du
 
 # Properties
 -include $(LOCAL_PATH)/common-props.mk
