@@ -7,12 +7,12 @@
     {
         "repository": "juvevood/proprietary_vendor_xiaomi_polaris",
         "target_path": "vendor/xiaomi/polaris",
-        "branch": "pie"
+        "branch": "dot-p"
     },
     {
         "repository": "juvevood/android_device_xiaomi_polaris",
         "target_path": "device/xiaomi/polaris",
-        "branch": "lineage-16.0"
+        "branch": "dot-p"
     },
     {
         "repository": "LineageOS/android_packages_resources_devicesettings",
