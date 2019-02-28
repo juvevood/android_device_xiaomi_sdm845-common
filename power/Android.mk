@@ -25,9 +25,8 @@ LOCAL_C_INCLUDES := external/libxml2/include \
 LOCAL_SHARED_LIBRARIES := liblog libcutils libdl libxml2
 
 
-#$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include := generated_kernel_headers
-
-LOCAL_HEADER_LIBRARIES := generated_kernel_headers
+$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include := generated_kernel_headers
+#LOCAL_HEADER_LIBRARIES := generated_kernel_headers
 LOCAL_HEADER_LIBRARIES += libutils_headers
 LOCAL_HEADER_LIBRARIES += libhardware_headers
 
